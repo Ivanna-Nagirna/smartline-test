@@ -199,10 +199,18 @@ header{
 }
 .navbar-header__tel {
 	padding-top: 30px;
+	text-align: center;
+}
+.navbar-header__tel a,
+.navbar-header__tel a:focus,
+.navbar-header__tel a:active {
 	font-size: 18px;
 	font-weight: 400;
 	color: #000;
-	text-align: center;
+}
+.navbar-header__tel a:hover {
+	cursor: pointer;
+	text-decoration: none;
 }
 .box-lang {
 	float: right;
